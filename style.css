@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+border: .1rem solid #5417bf;
+padding: 2rem 5rem;
+width: 50rem;
+text-align: center;
+border-radius: 2rem;
+}
+
+.input-container{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+input{
+    width: 40%;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.result-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 6rem;
+    line-height: 20rem;
+    height: 20rem;
+    width: 20rem;
+    color: #ff0000;
+    font-weight: bolder;
+    border: .3rem solid #5417bf;
+    border-radius: 50%;
+}
+
+button{
+    padding: .5rem 1.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: .5rem;
+}
+
+button:nth-of-type(1){
+    background-color: #55ff00;
+    border-color: #55ff00;
+}
+
+button:nth-of-type(2){
+    background-color: #ff0000;
+    border-color: #ff0000;
+    color: #fff;
+}
+
+button:nth-of-type(3){
+    background-color: #ffff00;
+    border-color: #ffff00;
+    color: #ff0000;
+}
